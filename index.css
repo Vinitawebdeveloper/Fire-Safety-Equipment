@@ -48,8 +48,84 @@
     list-style: none;
     cursor: pointer;
 }
+
 .second_nav ul li a{
     text-decoration: none;
     /* list-style: none; */
     cursor: pointer;
+}
+
+.nav_main{
+    width: 100%;
+    height: 29vw;
+    background-image: url("Images/FIRST.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* overflow-y: scroll; */
+    animation: home_image 50s linear infinite;
+    /* animation-direction: alternate; */
+}
+
+@keyframes home_image {
+    0%{
+        background-image: url("Images/addressable_con.png");
+    }
+    25%{
+        background-image: url("Images/FIRST.jpg");
+    }
+    50%{
+        background-image: url("Images/WINDOW_ONE.jpeg");
+    }
+    75%{
+        background-image: url("Images/WINDOW_TWO.jpeg");
+    }
+    100%{
+        background-image: url("Images/WINDOW_THREE.jpeg");
+    }
+    
+}
+
+.product_list{
+    height: 380px;
+    width:100% ;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product{
+width: 300px;
+height: 250px;
+margin: 0px 2vw;
+border: 1px solid black;
+}
+
+.our_product{
+    height: 380px;
+    width:96% ;
+    border: 2px solid black;
+    display: flex;
+    margin: 0px 2vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_product{
+    /* width: 300px;
+    height: 250px; */
+    display: grid;
+   
+    margin:2vw;
+    border: 1px solid black;
+    }
+
+.o_product{
+    /* flex-direction: row; */
+    height: 200px;
+    width:50px ;
+    border: 2px solid black;
+    display: flex;
+    /* margin: 0px 2vw; */
+    justify-content: center;
+    align-items: center;
 }
