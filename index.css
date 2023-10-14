@@ -6,13 +6,16 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
+.nav_container {
+    /* position: fixed; */
+}
 .nav_container ul{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 11.5vw;
     /* background-color: aqua; */
+    /* position: fixed; */
 }
 
 .nav_container ul li{
@@ -128,4 +131,23 @@ border: 1px solid black;
     height: 340px;
     width:370px ;
     border: 2px solid blue;
+}
+
+.independent_designer{
+    background-image: url("./Images/addressable_con.png");
+    width: 100%;
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 2.2vw;
+    flex-direction: column;
+    padding: 0vw 26vw;
+    color: whitesmoke;
+    line-height: 3vw;
+    background-color: #222222;
+    opacity: 0.6;
 }
